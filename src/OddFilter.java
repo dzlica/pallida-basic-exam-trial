@@ -1,3 +1,7 @@
+// Create a function that takes a list as a parameter,
+// and returns a new list with every odd element from the orignal list
+// should print [1, 3, 5]
+
 import java.util.Arrays;
 import java.util.List;
 import java.util.ArrayList;
@@ -9,17 +13,14 @@ public class OddFilter {
         for (int i = 0; i < oddFilter.size(); i++) {
             System.out.println(oddFilter.get(i));
         }
-        // Create a function that takes a list as a parameter,
-        // and returns a new list with every odd element from the orignal list
-        // should print [1, 3, 5]
     }
 
     private static ArrayList<Integer> oddFilter(ArrayList<Integer> incomingList) {
         ArrayList<Integer> result = new ArrayList<Integer>();
-        for (int i = 0; i <= incomingList.size(); i++) {
+        for (int i = 0; i < incomingList.size(); i++) {
 
             if (incomingList.get(i) % 2 != 0) {
-                result.set(i, incomingList.get(i));
+                result.add(incomingList.get(i));
             }
 
         }
