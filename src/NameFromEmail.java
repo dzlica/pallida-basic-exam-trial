@@ -19,7 +19,11 @@ public class NameFromEmail {
 
     private static String nameFromEmail(String cutString) {
         String result = ();
+        int firstName = result.indexOf(".");
+        int lastName = result.indexOf(".com");
         
+
+
         return result;
     }
 }
