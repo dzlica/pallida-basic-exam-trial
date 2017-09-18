@@ -17,8 +17,8 @@ public class OddFilter {
     private static ArrayList<Integer> oddFilter(ArrayList<Integer> incomingList) {
         ArrayList<Integer> result = new ArrayList<Integer>();
         for (int i = 0; i <= incomingList.size(); i++) {
-            int odd = incomingList.get(i) % 2;
-            if (odd != 0) {
+
+            if (incomingList.get(i) % 2 != 0) {
                 result.set(i, incomingList.get(i));
             }
 
