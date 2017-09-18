@@ -1,4 +1,4 @@
-/*import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.Scanner;
 
 // Create a function that takes an email address as input in the following format: firstName.lastName@exam.com
@@ -14,22 +14,18 @@ public class NameFromEmail {
         String email = myScanner.nextLine();
 
 
-
-    }
-
         System.out.println(nameFromEmail("elek.viz@exam.com"));
     }
 
-    private static ArrayList<String> nameFromEmail(ArrayList<String> szetSzed) {
-        ArrayList<String> vissza = new ArrayList<String>();
-        ArrayList<String> firstName = szetSzed.subList(0, ".");
-        ArrayList<String> lastName = szetSzed.subList(("."), ".");
-
-
-        return vissza;
+    private static String nameFromEmail(String cutString) {
+        String result = ();
+        
+        return result;
     }
+}
 
-    */
+
+
 
 
 
